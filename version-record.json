@@ -1,0 +1,26 @@
+{
+    "versions": {
+        "0.0": {
+            "feature": [
+                "Neovim setup"
+            ],
+            "development version": {
+                "beta": {
+                    "0.0.b.0": [
+                        "[Neovim setup]"
+                    ]
+                }
+            }
+        }
+    },
+    "features": {
+        "future": {
+        },
+        "present": {
+            "Neovim setup": "0.0 -> now"
+        },
+        "past": {
+
+        }
+    }
+}
