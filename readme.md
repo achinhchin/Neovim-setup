@@ -23,7 +23,7 @@ This is my Neovim setup for coding more productive and speed.
 ### **Contents**
 #### 0. [Update Your Installer](./readme.md#0-update-your-installer)
 
-#### 1. [Insatll Neovim](./readme.md#1-install-neovim)
+#### 1. [Install Neovim](./readme.md#1-install-neovim)
 1. [Install Neovim](./readme.md#11-install-neovim)
 2. [Link to Vim](./readme.md#12-link-to-vim)
 
