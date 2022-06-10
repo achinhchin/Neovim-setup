@@ -37,6 +37,8 @@ This is my Neovim setup for coding more productive and speed.
 1. [Install language server in Nvim Lsp](./readme.md#31-install-language-servers-in-nvim-lsphttpsmicrosoftgithubiolanguage-server-protocol)
 2. [Install language servers in Coc](./readme.md#32-install-language-servers-in-cochttpsgithubcomneoclidecocnvim)
 
+### 4. [Useful features](./readme.md#4-useful-features)
+
 ---
 
 > **Important**
@@ -189,3 +191,11 @@ You can see list of extensions by type
 :CocList extensions
 ```
 in "*Normal Mode*" in Nvim.
+
+## **4. Useful features**
+1. You can see many basic of Vim commands and shortcuts [here](https://vimhelp.org/).
+2. You can see special shortcuts in your ```~/.config/nvim/maps.vim``` file and files in ```~/.config/nvim/after/plugins/``` directory after install with my solution.
+
+> **Complain**
+>
+> I'm too lazy to write every shortcuts you can find by your self in above directories or in [this video](https://www.youtube.com/watch?v=FW2X1CXrU1w).
