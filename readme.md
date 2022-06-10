@@ -262,8 +262,8 @@ Type these shortcuts in **Normal mode** in Nvim.
 Type these shortcuts in **Normal mode** in Nvim.
 1. **rc** - run C language
 2. **rp** - run Python language
-3. **npmi** - npm init
-4. **npmin** - npm install
-5. **npmd** - npm run dev
-6. **npmb** - npm run build
-7. **npmst** - npm start
+3. **npmi** - ```npm init```
+4. **npmin** - ```npm install```
+5. **npmd** - ```npm run dev```
+6. **npmb** - ```npm run build```
+7. **npmst** - ```npm start```
