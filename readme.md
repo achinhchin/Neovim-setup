@@ -38,6 +38,13 @@ This is my Neovim setup for coding more productive and speed.
 2. [Install language servers in Coc](./readme.md#32-install-language-servers-in-cochttpsgithubcomneoclidecocnvim)
 
 ### 4. [Useful features](./readme.md#4-useful-features)
+1. [Basic command shortcuts](./readme.md#41-basic-command-shortcuts)
+2. [Screen spliter shortcuts](./readme.md#42-screen-spliter-shortcuts)
+3. [Tabedit shortcuts](./readme.md#43-tabedit-shortcuts)
+4. [File edit in Nvim](./readme.md#44-file-edit-in-nvim)
+5. [Telescope](./readme.md#45-telescope)
+6. [Code suggested, completion and data](./readme.md#46-code-suggested-completion-and-data)
+7. [Run code](./readme.md#47-run-code)
 
 ---
 
@@ -150,7 +157,7 @@ vim
 ```
 
 2. Install each Lsp server for nvim.
-Type this in "*Normal Mode*" in Vim.
+Type this in "*Normal mode*" in Vim.
 ```
 :LspInstall clangd
 :LspInstall dartls
@@ -178,7 +185,7 @@ vim
 ```
 
 2. Install language servers in Coc
-Type this in "*Normal Mode*" in Vim.
+Type this in "*Normal node*" in Vim.
 ```
 :CocInstall coc-html
 :CocInstall coc-json
@@ -190,12 +197,73 @@ You can see list of extensions by type
 ```
 :CocList extensions
 ```
-in "*Normal Mode*" in Nvim.
+in "*Normal mode*" in Nvim.
 
 ## **4. Useful features**
+### **Source of features**
 1. You can see many basic of Vim commands and shortcuts [here](https://vimhelp.org/).
 2. You can see special shortcuts in your ```~/.config/nvim/maps.vim``` file and files in ```~/.config/nvim/after/plugins/``` directory after install with my solution.
+3. See example of command usage.
 
-> **Complain**
->
-> I'm too lazy to write every shortcuts you can find by your self in above directories or in [this video](https://www.youtube.com/watch?v=FW2X1CXrU1w).
+### **4.1 Basic command shortcuts**
+Type these shortcuts in **Normal mode** in Nvim.
+1. **fs** - save file
+2. **q** - quit file
+2. **fq** - force quit file
+
+### **4.2 Screen spliter shortcuts**
+Type these shortcuts in **Normal mode** in Nvim.
+1. **ss** - Split window in horizontol.
+2. **sv** - Split window in vertical.
+3. **sh** - move to left window.
+4. **sj** - move down to window.
+5. **sk** - move up to window.
+6. **sl** - move to right window.
+7. **\<C-w\>\<left\>** -  resize window to left 
+8. **\<C-w\>\<right\>** - resize window to right
+9. **\<C-w\>\<up\>** - resize window to up
+10. **\<C-w\>\<down\>** - resize window to down
+
+### **4.3 Tabedit shortcuts**
+Type these shortcuts in **Normal mode** in Nvim.
+1. **te** - create new tab
+2. **\<Tab\>** - go to right tab
+3. **\<S-Tab\>** - go to previus tab
+
+### **4.4 File edit in Nvim**
+Type these shortcuts in **Normal mode** in Nvim.
+1. **sf** - get in edit file page.
+
+Type next command in edit file page.
+
+2. **l** - get into folder or file.
+3. **h** - back to previus folder.
+4. **N** - create new file
+5. **K** - create new subdirectory
+6. **r** - rename file
+7. **d** - delete file
+
+### **4.5 Telescope**
+Type these shortcuts in **Normal mode** in Nvim.
+1. **;f** - open search file function
+2. **;r** - live grep
+3. **\\\\** - buffer
+4. **;;** - help tags
+
+### **4.6 Code suggested, completion and data**
+Type these shortcuts in **Inert mode** in Nvim.
+**\<C-Space\>** - see sugested of code.
+
+Type these shortcuts in **Normal mode** in Nvim.
+1. **gh** - to see diagnostic
+2. **K** - to see data of object
+
+### **4.7 Run code**
+Type these shortcuts in **Normal mode** in Nvim.
+1. **rc** - run C language
+2. **rp** - run Python language
+3. **npmi** - npm init
+4. **npmin** - npm install
+5. **npmd** - npm run dev
+6. **npmb** - npm run build
+7. **npmst** - npm start
