@@ -207,63 +207,63 @@ in "*Normal mode*" in Nvim.
 
 ### **4.1 Basic command shortcuts**
 Type these shortcuts in **Normal mode** in Nvim.
-1. **fs** - save file
-2. **q** - quit file
-2. **fq** - force quit file
+- **fs** - save file
+- **q** - quit file
+- **fq** - force quit file
 
 ### **4.2 Screen spliter shortcuts**
 Type these shortcuts in **Normal mode** in Nvim.
-1. **ss** - Split window in horizontol.
-2. **sv** - Split window in vertical.
-3. **sh** - move to left window.
-4. **sj** - move down to window.
-5. **sk** - move up to window.
-6. **sl** - move to right window.
-7. **\<C-w\>\<left\>** -  resize window to left 
-8. **\<C-w\>\<right\>** - resize window to right
-9. **\<C-w\>\<up\>** - resize window to up
-10. **\<C-w\>\<down\>** - resize window to down
+- **ss** - Split window in horizontol.
+- **sv** - Split window in vertical.
+- **sh** - move to left window.
+- **sj** - move down to window.
+- **sk** - move up to window.
+- **sl** - move to right window.
+- **\<C-w\>\<left\>** -  resize window to left 
+- **\<C-w\>\<right\>** - resize window to right
+- **\<C-w\>\<up\>** - resize window to up
+- **\<C-w\>\<down\>** - resize window to down
 
 ### **4.3 Tabedit shortcuts**
 Type these shortcuts in **Normal mode** in Nvim.
-1. **te** - create new tab
-2. **\<Tab\>** - go to right tab
-3. **\<S-Tab\>** - go to previus tab
+- **te** - create new tab
+- **\<Tab\>** - go to right tab
+- **\<S-Tab\>** - go to previus tab
 
 ### **4.4 File edit in Nvim**
 Type these shortcuts in **Normal mode** in Nvim.
-1. **sf** - get in edit file page.
+- **sf** - get in edit file page.
 
 Type next command in edit file page.
 
-2. **l** - get into folder or file.
-3. **h** - back to previus folder.
-4. **N** - create new file
-5. **K** - create new subdirectory
-6. **r** - rename file
-7. **d** - delete file
+- **l** - get into folder or file.
+- **h** - back to previus folder.
+- **N** - create new file
+- **K** - create new subdirectory
+- **r** - rename file
+- **d** - delete file
 
 ### **4.5 Telescope**
 Type these shortcuts in **Normal mode** in Nvim.
-1. **;f** - open search file function
-2. **;r** - live grep
-3. **\\\\** - buffer
-4. **;;** - help tags
+- **;f** - open search file function
+- **;r** - live grep
+- **\\\\** - buffer
+- **;;** - help tags
 
 ### **4.6 Code suggested, completion and data**
 Type these shortcuts in **Inert mode** in Nvim.
 **\<C-Space\>** - see sugested of code.
 
 Type these shortcuts in **Normal mode** in Nvim.
-1. **gh** - to see diagnostic
-2. **K** - to see data of object
+- **gh** - to see diagnostic
+- **K** - to see data of object
 
 ### **4.7 Run code**
 Type these shortcuts in **Normal mode** in Nvim.
-1. **rc** - run C language
-2. **rp** - run Python language
-3. **npmi** - ```npm init```
-4. **npmin** - ```npm install```
-5. **npmd** - ```npm run dev```
-6. **npmb** - ```npm run build```
-7. **npmst** - ```npm start```
+- **rc** - run C language
+- **rp** - run Python language
+- **npmi** - ```npm init```
+- **npmin** - ```npm install```
+- **npmd** - ```npm run dev```
+- **npmb** - ```npm run build```
+- **npmst** - ```npm start```
