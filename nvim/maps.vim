@@ -1,4 +1,9 @@
 " Description: Keymaps
+"
+
+nnoremap <silent> ca <cmd>lua vim.lsp.buf.code_action()<CR>
+
+nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
 
 nnoremap <S-C-p> "0p
 " Delete without yank
@@ -63,9 +68,6 @@ nmap <C-w><down> <C-w>5-
 nmap fs :w<Return>
 nmap q :q<Return>
 nmap fq :q!<Return>
-nmap qa :qa<Return>
-nmap fsq :wq<Return>
-nmap fsqa :wqa<Return>
 " Run codes
 nmap rc :w<Return>:vsplit<Return><C-w>l:term if not test -d ./out; mkdir out; end && gcc -o ./out/<C-r>% ./<C-r>% && ./out/<C-r>%<Return>
 nmap rp :w<Return>:vsplit<Return><C-w>l:term python3 <C-r>%<Return>
@@ -73,5 +75,5 @@ nmap npmi :term npm init<Return>
 nmap npmin :term npm install
 nmap npmd :term npm run dev<Return>
 nmap npmb :term npm run build<Return>
-nmap npmst :term npm start<Return>
+nmap npms :term npm start<Return>
 

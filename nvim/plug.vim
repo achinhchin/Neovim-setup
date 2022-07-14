@@ -29,7 +29,9 @@ if has("nvim")
   Plug 'windwp/nvim-autopairs'
   Plug 'windwp/nvim-ts-autotag'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'dart-lang/dart-vim-plugin'
   Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+  Plug 'lukas-reineke/lsp-format.nvim'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
