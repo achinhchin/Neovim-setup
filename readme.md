@@ -19,6 +19,11 @@ This is my Neovim setup for coding more productive and speed.
 ### **Packages requirement**
 - [Brew](https://github.com/chinhchin/Brew-setup.git)
 - [Fish Shell](https://github.com/chinhchin/Fish-Shell-setup.git)
+- [Vim](https://www.vim.org/) (
+```
+brew install vim
+```
+)
 
 ### **Contents**
 #### 0. [Update Your Installer](./readme.md#0-update-your-installer)
@@ -79,15 +84,8 @@ brew install --HEAD tree-sitter luajit neovim
 ### **1.2 Link to vim**
 Type this command into your terminal.
 ```
-ln -s (which nvim) /usr/local/bin/vim
+sudo ln -s (which nvim) /usr/local/bin/vim
 ```
-
-> **Note**
->
-> If you have a problem about permission, try
-> ```
-> sudo ln -s (which nvim) /usr/local/bin/vim
-> ```
 
 > **Note**
 >
@@ -107,7 +105,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 Clone this repository to your device and copy nvim file to your nvim config directory.
 ```
 # create vim directory in cache
-if not test -d ~/.cache ; mkdr ~/.cache/ ; end
+if not test -d ~/.cache ; mkdir ~/.cache/ ; end
 if not test -d ~/.cache/nvim ; mkdir ~/.cache/nvim ; end
 
 # Check if ~/.config directory is exist.
