@@ -15,6 +15,20 @@
                     ]
                 }
             }
+        },
+        "0.1": {
+            "features": [
+                "Neovim setup"
+            ],
+            "release": false,
+            "updates": [
+                "update new neovim with new plugins"
+            ],
+            "development version": {
+                "0.1.b.0": [
+                    "[Neovim setup]"
+                ]
+            }
         }
     },
     "features": {

@@ -74,7 +74,7 @@ brew update
 ### **1.1 Install Neovim**
 Type this command into your terminal.
 ```
-brew install --HEAD tree-sitter luajit neovim
+brew install neovim
 ```
 
 > **Important**
