@@ -92,4 +92,17 @@ ln -s (which) /home/linuxbrew/.linuxbrew/bin/vim
 ### **2.1 Install plugins in Neovim**
 
 ### **2.2 Add config file**
+```
+# Check if ~/.config directory is exist.
+cd ~
+if not test -d ~/.config ; mkdir .config ; end
 
+# Check if ~/Donwloads folder exists.
+if not test -d ~/Downloads ; mkdir ~/Downloads ; end
+
+# Clone repository
+git clone https://github.com/chinhchin/Neovim-setup.git ~/Downloads/Neovim-setup
+
+# Copy folder
+cp -r ~/Downloads/Neovim-setup/nvim/ ~/.config/
+```
