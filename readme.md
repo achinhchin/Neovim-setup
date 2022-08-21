@@ -19,11 +19,6 @@ This is my Neovim setup for coding more productive and speed.
 ### **Packages requirement**
 - [Brew](https://github.com/chinhchin/Brew-setup.git)
 - [Fish Shell](https://github.com/chinhchin/Fish-Shell-setup.git)
-- [Vim](https://www.vim.org/) (
-```
-brew install vim
-```
-)
 
 ### **Contents**
 #### 0. [Update Your Installer](./readme.md#0-update-your-installer)
