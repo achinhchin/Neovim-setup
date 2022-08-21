@@ -80,18 +80,16 @@ brew install neovim
 ### **Link vim command to nvim**
 On *macOS* type,
 ```
-ln -s (which nvim) /opt/homebrew/bin/vim
+sudo ln -s (which nvim) /opt/homebrew/bin/vim
 ```
 
 On *Linux* type,
 ```
-ln -s (which) /home/linuxbrew/.linuxbrew/bin/vim
+sudo ln -s (which) /home/linuxbrew/.linuxbrew/bin/vim
 ```
 
 ## **2. Config Neovim**
-### **2.1 Install plugins in Neovim**
-
-### **2.2 Add config file**
+### **2.1 Add config file**
 ```
 # Check if ~/.config directory is exist.
 cd ~
@@ -104,5 +102,18 @@ if not test -d ~/Downloads ; mkdir ~/Downloads ; end
 git clone https://github.com/chinhchin/Neovim-setup.git ~/Downloads/Neovim-setup
 
 # Copy folder
-cp -r ~/Downloads/Neovim-setup/nvim/ ~/.config/
+cp -r ~/Downloads/Neovim-setup/nvim/ ~/.config/nvim
 ```
+
+### **2.2 Install and activate [packer.nvim](https://github.com/wbthomason/packer.nvim)**
+
+Type this command in terminal
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
+Type this command in nvim
+```
+:PackerInstall
+```
+
