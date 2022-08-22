@@ -20,7 +20,7 @@
             "features": [
                 "Neovim setup"
             ],
-            "release": false,
+            "release": true,
             "updates": [
                 "update new neovim with new plugins"
             ],
