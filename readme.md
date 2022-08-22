@@ -3,11 +3,7 @@ This is my Neovim setup for coding more productive and speed.
 
 ### **Image Preview**
 - Split windows in Nvim.
-![Split windows in Nvim](./readme-assets/nvim-1.png)
-- Auto completion and suggestion in Nvim.
-![Auto completion and suggestion in Nvim](./readme-assets/nvim-2.png)
-- compile with shortcut.
-![Compile with shortcut](./readme-assets/nvim-3.png)
+![](./readme-assets/nvim.png)
 
 ### **Go to**
 - [Version Record](./version-record.json)
