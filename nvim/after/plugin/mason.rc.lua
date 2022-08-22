@@ -8,5 +8,28 @@ mason.setup({
 })
 
 lspconfig.setup {
-  ensure_installed = { "sumneko_lua", "tailwindcss" },
+  ensure_installed = {
+    "diagnosticls",
+    "asm_lsp",
+    "clangd",
+    "opencl_ls",
+    "dartls",
+    "csharp_ls",
+    "sqlls",
+    "pyright",
+    "tsserver",
+    "flow",
+    "astro",
+    "svelte",
+    "sumneko_lua",
+    "cssls",
+    "tailwindcss",
+    "vimls",
+    "html",
+    "jsonls",
+    "marksman",
+    "yamlls",
+    "dockerls"
+  },
 }
+

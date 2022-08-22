@@ -58,10 +58,21 @@ local capabilities = require('cmp_nvim_lsp').update_capabilities(
   vim.lsp.protocol.make_client_capabilities()
 )
 
-nvim_lsp.flow.setup {
-  on_attach = on_attach,
-  capabilities = capabilities
-}
+nvim_lsp.diagnosticls.setup {}
+
+nvim_lsp.asm_lsp.setup {}
+
+nvim_lsp.clangd.setup {}
+
+nvim_lsp.opencl_ls.setup {}
+
+nvim_lsp.dartls.setup {}
+
+nvim_lsp.csharp_ls.setup {}
+
+nvim_lsp.sqlls.setup {}
+
+nvim_lsp.pyright.setup {}
 
 nvim_lsp.tsserver.setup {
   on_attach = on_attach,
@@ -70,9 +81,14 @@ nvim_lsp.tsserver.setup {
   capabilities = capabilities
 }
 
-nvim_lsp.sourcekit.setup {
+nvim_lsp.flow.setup {
   on_attach = on_attach,
+  capabilities = capabilities
 }
+
+nvim_lsp.astro.setup {}
+
+nvim_lsp.svelte.setup {}
 
 nvim_lsp.sumneko_lua.setup {
   on_attach = on_attach,
@@ -92,15 +108,35 @@ nvim_lsp.sumneko_lua.setup {
   },
 }
 
+nvim_lsp.cssls.setup {}
+
 nvim_lsp.tailwindcss.setup {}
 
-vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
-  vim.lsp.diagnostic.on_publish_diagnostics, {
-  underline = true,
-  update_in_insert = false,
-  virtual_text = { spacing = 4, prefix = "●" },
-  severity_sort = true,
+nvim_lsp.vimls.setup {}
+
+nvim_lsp.html.setup {}
+
+nvim_lsp.jsonls.setup {}
+
+nvim_lsp.marksman.setup {}
+
+nvim_lsp.yamlls.setup {}
+
+nvim_lsp.dockerls.setup {}
+
+nvim_lsp.sourcekit.setup {
+  on_attach = on_attach,
 }
+
+
+
+vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+    vim.lsp.diagnostic.on_publish_diagnostics, {
+    underline = true,
+    update_in_insert = false,
+    virtual_text = { spacing = 4, prefix = "●" },
+    severity_sort = true,
+  }
 )
 
 -- Diagnostic symbols in the sign column (gutter)
